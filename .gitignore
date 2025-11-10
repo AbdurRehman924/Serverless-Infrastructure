@@ -1,0 +1,12 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Lambda deployment package
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
