@@ -1,12 +1,31 @@
 # Terraform
+.terraform/
+*.tfplan
 *.tfstate
 *.tfstate.*
-.terraform/
 .terraform.lock.hcl
 
-# Lambda deployment package
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*/venv/
+
+# Local .zip files
 *.zip
 
-# OS
+# Logs
+*.log
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
