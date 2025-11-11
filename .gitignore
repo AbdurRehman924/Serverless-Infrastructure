@@ -1,25 +1,12 @@
-# Terraform
-.terraform/
-*.tfplan
+# Terraform files
 *.tfstate
 *.tfstate.*
+*.tfvars
+.terraform/
 .terraform.lock.hcl
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python/
-env/
-venv/
-*/venv/
-
-# Local .zip files
+# Lambda deployment packages
 *.zip
-
-# Logs
-*.log
 
 # OS generated files
 .DS_Store
@@ -29,3 +16,12 @@ venv/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
