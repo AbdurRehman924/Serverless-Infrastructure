@@ -1,0 +1,11 @@
+# Example Terraform variables file
+# Copy this file to terraform.tfvars and customize the values
+
+# AWS region where resources will be created
+aws_region = "us-east-1"
+
+# Name for the Lambda function
+lambda_function_name = "serverless-api-function"
+
+# Environment tag for resources
+environment = "dev"
